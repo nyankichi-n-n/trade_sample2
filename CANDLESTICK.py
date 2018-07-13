@@ -72,5 +72,4 @@ class CandleStick:
             self.__cs[-1]['close'] = cs_close
             self.__cs[-1]['avg'] = cs_avg
 
-            pprint.pprint(self.__cs)
             return True
