@@ -50,9 +50,9 @@ LOOP_TIME = 5  # 市場価格取得間隔の秒数
 CANDLE_STICK_PERIOD = int(1 * 60 / LOOP_TIME)  # 何分足
 
 # チャネルブレイクアウトの間隔定数
-CANDLE_TERM = 20  # ローソク足の保持数(レンジ幅を確認する間隔)
-BUY_TERM = 18  # 買いを判断する間隔
-SELL_TERM = 9  # 売りを判断する間隔
+CANDLE_TERM = 15  # ローソク足の保持数(レンジ幅を確認する間隔)
+BUY_TERM = 10  # 買いを判断する間隔
+SELL_TERM = 5  # 売りを判断する間隔
 RANGE_THRESHOLD = 500  # レンジ幅の定数
 
 # 移動平均線、ボリンジャーバンドの間隔数
